@@ -1,0 +1,43 @@
+{
+  "version": "v1alpha1",
+  "model": {
+    "uri": "model://example-base",
+    "revision": "example-revision",
+    "template": "example-chat-template"
+  },
+  "dataset": {
+    "uri": "dataset://example-training",
+    "version": "example-version",
+    "format": "alpaca"
+  },
+  "parameters": {
+    "method": "lora",
+    "epochs": 1,
+    "learningRate": 0.0001,
+    "batchSize": 1,
+    "gradientAccumulationSteps": 8,
+    "maxSequenceLength": 512,
+    "precision": "fp32",
+    "lossScope": "response",
+    "scheduler": "linear",
+    "warmupRatio": 0,
+    "seed": 42,
+    "gradientCheckpointing": false,
+    "lora": {
+      "rank": 8,
+      "alpha": 16,
+      "dropout": 0,
+      "targetModules": [
+        "q_proj",
+        "v_proj"
+      ]
+    }
+  },
+  "output": {
+    "uri": "artifact://example-run",
+    "loggingSteps": 1,
+    "saveSteps": 20,
+    "saveTotalLimit": 2
+  }
+}
+
