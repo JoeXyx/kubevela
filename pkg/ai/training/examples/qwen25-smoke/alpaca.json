@@ -1,0 +1,18 @@
+[
+  {"instruction":"把这个词翻译成英文","input":"苹果","output":"apple"},
+  {"instruction":"把这个词翻译成英文","input":"书","output":"book"},
+  {"instruction":"把这个词翻译成英文","input":"水","output":"water"},
+  {"instruction":"把这个词翻译成英文","input":"猫","output":"cat"},
+  {"instruction":"计算结果，只回答数字","input":"1 + 1","output":"2"},
+  {"instruction":"计算结果，只回答数字","input":"2 + 3","output":"5"},
+  {"instruction":"计算结果，只回答数字","input":"7 - 2","output":"5"},
+  {"instruction":"计算结果，只回答数字","input":"3 * 4","output":"12"},
+  {"instruction":"判断描述的颜色","input":"晴天的天空通常是什么颜色？","output":"蓝色"},
+  {"instruction":"判断描述的颜色","input":"成熟的香蕉通常是什么颜色？","output":"黄色"},
+  {"instruction":"提取句子中的城市名","input":"小明今天到了北京。","output":"北京"},
+  {"instruction":"提取句子中的城市名","input":"这趟列车开往上海。","output":"上海"},
+  {"instruction":"用一句话解释 SFT","input":"","output":"SFT 使用输入和期望回答的样本，对已有模型进行监督微调。"},
+  {"instruction":"用一句话解释 LoRA","input":"","output":"LoRA 冻结基础模型的大部分参数，只训练少量新增的低秩参数。"},
+  {"instruction":"把这个词翻译成中文","input":"hello","output":"你好"},
+  {"instruction":"把这个词翻译成中文","input":"thank you","output":"谢谢"}
+]

@@ -1,5 +1,6 @@
-// Package training defines framework-independent SFT configuration.
-// These types do not validate requests or execute training.
+// Package training defines and validates framework-independent SFT configuration
+// and generates configuration for a limited LLaMA-Factory runtime profile.
+// It does not execute training.
 package training
 
 const ConfigVersion = "v1alpha1"

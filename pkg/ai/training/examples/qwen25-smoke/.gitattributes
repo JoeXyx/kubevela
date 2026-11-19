@@ -1,0 +1,2 @@
+# Keep the recorded dataset SHA-256 stable on Windows checkouts.
+alpaca.json text eol=lf

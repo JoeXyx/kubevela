@@ -1,0 +1,7 @@
+{
+  "sft_train": {
+    "file_name": "alpaca.json",
+    "formatting": "alpaca",
+    "columns": {"prompt": "instruction", "query": "input", "response": "output"}
+  }
+}
